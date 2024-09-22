@@ -1,6 +1,12 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
+export const List = styled.ul`
+  display: flex;
+  gap: 28px;
+  align-items: center;
+`;
+
 export const Link = styled(NavLink)`
   font-weight: 400;
   font-size: 16px;
@@ -8,11 +14,6 @@ export const Link = styled(NavLink)`
   color: #121417;
 
   &.active {
-    color: var(--button);
+    color: #f4c550;
   }
-`;
-
-export const List = styled.ul`
-  display: flex;
-  gap: 28px;
 `;

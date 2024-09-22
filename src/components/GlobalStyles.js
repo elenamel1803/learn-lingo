@@ -6,13 +6,9 @@ import RobotoBold from '../assets/fonts/Roboto-Bold.ttf';
 const GlobalStyles = createGlobalStyle`
 :root {
   --font-family: "Roboto", sans-serif;
-	--button: #e44848;
-  --button-hover: #d84343;
-	--main: #101828;
-	--inputs: #f7f7f7;
-	--block-features: #f2f4f7;
-	--rating: #ffc531;
-	--text: #475467;
+	--button:  #f4c550;
+  --button-hover: #ffdc86;
+	--text: #121417;
 }
 
 #root {

@@ -2,7 +2,7 @@ import { Link, List } from './Navbar.styled';
 
 const Navbar = () => {
   return (
-    <nav>
+    <>
       <List>
         <li>
           <Link to="/">Home</Link>
@@ -14,7 +14,7 @@ const Navbar = () => {
           <Link to="/favorites">Favorites</Link>
         </li>
       </List>
-    </nav>
+    </>
   );
 };
 
